@@ -11,11 +11,9 @@ const codes = [
   "a"
 ];
 
-function init() {
+function init(e) {
   let index = 0
-  const body = document.querySelector('body')
-  body.addEventListener('keydown',function codeChecker(e){
-    let key = e.key
+  let key = e.key
     if (key === codes[index]) {
       index++
     }
@@ -28,3 +26,6 @@ function init() {
       index = 0
     }
   }
+
+  const body = document.querySelector('body')
+  body.addEventListener('keydown', init)
