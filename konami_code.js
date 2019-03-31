@@ -32,5 +32,5 @@ function codeTest(e) {
     alert('Game Unlocked')
     index = 0
   }
-  
+
 }
