@@ -28,6 +28,5 @@ function codeTest(e) {
   }
   else {
     index = 0
-    continue
   }
 }
