@@ -24,7 +24,6 @@ function init() {
       index = 0
     }
     else {
-      alert('failure')
       index = 0
     }
   }
